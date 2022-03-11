@@ -1,0 +1,355 @@
+.App {
+  text-align: center;
+  background-color: #e9fcf4;
+}
+#c-id {
+  border: none;
+}
+#canvas {
+  position: absolute;
+  top: 60px;
+  left: 375px;
+}
+
+#shape {
+  padding: 0.5rem;
+}
+#drawShape {
+  margin: 1rem;
+}
+#shapesDropdown {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 0.5rem;
+  padding-left: 0.2rem;
+  padding-bottom: 1.1rem;
+}
+#style,
+#color,
+#size,
+#bold,
+#italic,
+#underline,
+#shapeProperties,
+#changeStrokeWidth,
+#strokeColor,
+#drawingMode,
+#clearCanvas,
+#redo,
+#undo,
+#textButton,
+#imageButton,
+#shapeButton,
+#coreOptions,
+#brushColor,
+#brushWidth,
+#canvasProperties,
+#threeDimensionalModel,
+#childObject,
+#image,
+#showShapes,
+#uploadButton,
+#uplaodImage,
+#dropdown-div,
+#imageFilters {
+  display: inline-block;
+}
+#shapeProperties,
+#brushProperties {
+  border-style: groove;
+  float: left;
+}
+#top-nav-bar {
+  background: whitesmoke;
+  width: 100%;
+  height: 82px;
+}
+#coreOptions{
+  border-style: groove;
+  padding-bottom: 1rem;
+  float: left;
+}
+#canvasProperties{
+  margin-top: 1.0rem;
+  padding-bottom: 0.2rem;
+  border-style: groove;
+  float: left;
+}
+#image-div {
+  float: left;
+  padding-left: 0.4rem;
+  max-width: 220px;
+  padding-top: 0.7rem;
+  margin-left: 0.3rem;
+  padding-bottom: 1rem;
+}
+#undo,
+#redo,
+#clearCanvas,
+#textButton,
+#imageButton,
+#shapeButton,
+#drawingMode,
+#style,
+#color,
+#size,
+#bold,
+#italic,
+#underline,
+#changeStrokeWidth,
+#strokeColor,
+#brushColor,
+#brushWidth {
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 2px;
+}
+#canvasPropertiesTitle,
+#coreFeaturesTitle {
+  font-size: 10pt;
+  margin-top: 1px;
+  margin-bottom: 1.35rem;
+  font-weight: bold;
+}
+#textProperties,
+#image,
+#showShapes {
+  float: left;
+  border-style: groove;
+}
+#showShapes {
+  padding-bottom: 0.2rem;
+}
+#textPropertiesTitle,
+#brushPropertiesTitle,
+#childObjectTitle {
+  font-size: 10pt;
+  margin-top: 1px;
+  font-weight: bold;
+}
+#childObjectTitle {
+  padding-bottom: 0.7rem;
+}
+#borderPropertiesTitle {
+  font-size: 10pt;
+  margin-top: 1px;
+  font-weight: bold;
+}
+#childObject {
+  float: left;
+}
+#dropdown-div {
+  float: right;
+  margin-left: 0.1rem;
+  margin-top: 0.6rem;
+  margin-right: 0.2rem;
+}
+.text-properties-body {
+  float: left;
+}
+#propertiesTitle {
+  float: left;
+  margin-bottom: 0.5rem;
+}
+#properties {
+  padding-left: 1.3rem;
+  padding-right: 0.8rem;
+  margin-top: 0.3rem;
+  padding-top: 7%;
+  float: left;
+  align-content: center;
+  z-index: 2;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 6px;
+  font-size: 14px;
+  border-color: black;
+  cursor: pointer;
+}
+.cursor{
+  cursor: pointer;
+}
+.close-cross{
+  position: absolute;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: whitesmoke;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: black;
+}
+.dropdown:hover .dropbtn {
+  border-color: cornflowerblue;
+  background-color: white;
+}
+#imageFilters {
+  float: right;
+  margin-top: 3.9rem;
+  padding-top: 0.3rem;
+  padding-right: 3.5rem;
+  align-content: center;
+}
+#text-properties-body-title {
+  float: left;
+}
+.text-properties-body {
+  float: left;
+  padding-top: 1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.5rem;
+}
+.btn-img-filters {
+  margin: 0.5rem;
+}
+#bindObjectsTitle {
+  padding-top: 0rem;
+}
+.btn-bind-object {
+  margin: 0.5rem;
+}
+#overlay{
+  z-index: -2;
+  background: red;
+  height: 100%;
+  width: 100%;
+  /*opacity: ;*/
+}
+#loadImage{
+  z-index: 3;
+  position: center;
+  background: aquamarine;
+  width: 600px;
+}
+.main-menu-bar{
+  padding-top: 30px;
+  float: left;
+  width: 100px;
+  height: 480px;
+  background-color: #feece8;
+  margin-top: 1rem ;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+
+}
+.main-menu-bar-items{
+  cursor: pointer;
+  margin-top: 15px;
+}
+.main-menu-bar-item-icon{
+  margin-top: 2px;
+
+}
+.main-menu-bar-item-title{
+  margin-top: 1px;
+}
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: #005b96;
+}
+.left-panel{
+  margin-top: 0px;
+  height: 530px;
+  width: 250px;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: 80px ;
+  left: 117px;
+}
+#add-image-panel{
+  text-align: center;
+}
+.drag-and-drop-container{
+  margin-top: 60px;
+  height: 350px;
+  width: 100%;
+  border-radius: 1rem;
+  border-style: dashed ;
+  border-color: lightsalmon;
+  border-width: 2px;
+  padding-left: 1.3rem;
+  padding-top: 8rem;
+}
+.font-style{
+  float : left ;
+  margin-top : 4px;
+  margin-left: 10px;
+}
+.font-style-container{
+  padding-left: 24px;
+  padding-top: 5px;
+}
+.design-bg-canvas{
+  background-color: orange;
+  height: 400px;
+
+}
+.sub-panel-title{
+  padding-left: 10%;
+}
+.sub-panel-element{
+  margin-top: 40px;
+}
+.sub-panel-element-adjustment{
+  margin-bottom:15px;
+}
+.cross-alignment{
+  float: right;
+}
+.back-arrow-alignment{
+  float: left;
+}
+.text-sub-panel-align{
+  padding-top: 13px;
+}
+.bind-object{
+  width: 400px;
+  height: 50px;
+  background-color: transparent;
+  margin-left: 40px;
+  padding-left: 45px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.bind-object-element{
+  float: left;
+  margin-left: 30px;
+}
+.canvas-properties{
+  float: right;
+  width: 50px;
+  height: 100%;
+  background-color: orange;
+  margin-top: 80px;
+  margin-right: 30px;
+
+}
+.canvas-properties-element{
+  padding-top: 25px;
+}
+
+
